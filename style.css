@@ -1,0 +1,53 @@
+.card{
+    border: 0;
+    background-color: #fff;
+    border-radius: 1rem;
+    position: relative;
+    transition: .3s;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    transition: .3s;
+}
+
+.lable-top{
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 3px;
+    top: 8px;
+    right: 8px;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: .7rem;
+   
+    text-transform: uppercase;
+}
+.bg-succes{
+    font-size: 1rem;
+    background-color: coral;
+    color: darkblue;
+}
+
+.card h5{
+    overflow: hidden;
+    height: 55px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.card h5 a{
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-warning{
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a img{
+    max-width: 350px;
+    height: 220px;
+}
